@@ -10,7 +10,7 @@ cd $HOME
 if [ -d "./venv" ]; then
     source ./venv/bin/activate
 else
-    python3.10 -m venv venv && source ./venv/scripts/activate
+    python3.10 -m venv venv && source ~/venv/scripts/activate
 fi
 
 python --version
